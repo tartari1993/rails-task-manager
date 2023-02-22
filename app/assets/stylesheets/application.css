@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+ .homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+ }
+
+ .main-title {
+  margin-bottom: 20px;
+ }
+
+
+ .fa-solid fa-pen {
+  margin-right: 5px;
+ }
+
+ .unlisted {
+  list-style-type: none;
+ }
+
+ .create-page {
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .new-task-page {
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .form-styled {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  margin: 0 auto;
+ }
